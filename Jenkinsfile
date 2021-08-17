@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('compile') {
             steps {
-                echo 'compiling source code ....this is compile phase'
+                echo 'compiling source code ....this is compile phase testing'
             }
         }
         stage('Test') {
